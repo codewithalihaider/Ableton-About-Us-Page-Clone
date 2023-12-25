@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Nunito:wght@400;700&display=swap');
+
+/* Resetting CSS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-text-color: #2d2d2d;
+    --secondary-text-color: #060606;
+    --primary-button-color:#0000ff;
+    --secondary-button-color:#ff764d;
+    --padding-inline-section:20px;
+}
+
+/* Utility Classes */
+
+body{
+    font-family: 'Nunito', sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* utility based classes */
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.internal-section{
+    width: 640px;
+}
+
+.main-header{
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-inline: 20px;
+    box-shadow: 0 0.2px #222;
+}
+
+.company-logo img{
+    width: 60px;
+}
+
+.main-nav ul{
+    justify-content: center;
+    gap: 40px;
+    padding-left: 20px;
+}
+
+.primary-menu{
+    flex-basis: 1080px;
+}
+
+.hover-link{
+    color: #222;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.menu-button{
+    color: #ff764d !important;
+}
+
+.last-button{
+    padding-left: 60px;
+    color: #0000ff;
+}
+
+.second-nav{
+    margin-top: 20px;
+    padding-inline: 20px;
+    justify-content: flex-start;
+    gap: 40px
+}
+
+.second-nav ul{
+    justify-content: flex-start;
+    gap: 40px
+}
+
+.second-button{
+    color: #222;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.first-img{
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-top: 20px;
+}
+
+.overlay-img{
+    position: absolute;
+    top: 420px;
+    bottom: 319px;
+    right: 319px;
+    left: 440px;
+}
+
+.overlay-img-svg{
+    filter: invert(61%) sepia(84%) saturate(1978%) hue-rotate(325deg) brightness(98%) contrast(106%);
+    width: 300px;
+    height: 103px;
+    transition: 1s ease-out;
+}
+
+.overlay-img-svg:hover{
+    filter: invert(96%) sepia(12%) saturate(1198%) hue-rotate(12deg) brightness(105%) contrast(101%);
+    filter: invert(68%) sepia(52%) saturate(382%) hue-rotate(194deg) brightness(102%) contrast(103%);
+}
+
+.main-heading{
+    text-align: justify;
+    margin-block: 60px;
+}
+
+.main-heading p{
+    font-size: 20px;
+    padding-block: 20px;
+    font-weight: 200;
+}
+
+.push-heading{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.word-target{
+    color: #0000ff;
+    transition: 1s ease-out;
+}
+
+.word-target:hover{
+    color: #ff764d;
+}
+
+
+.first-image-section{
+    padding-block: 40px;
+    margin-top: 60px;
+}
+
+.sub-first-section img{
+    width: 533px;
+    height: 533px;
+}
+
+.sub-second-section{
+    background-color: #fbffa7;
+    width: 746px;
+    height: 746px;
+}
+
+.sub-second-section img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 426px;
+    height: 320px;
+    margin-left: 106px;
+    margin-block: 170px;
+}
+
+.push-heading-2{
+    font-size: 27px;
+}
+
+
+.second-img{
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.overlay-image-secondary{
+    position: absolute;
+    top: 2680px;
+    bottom: 319px;
+    right: 319px;
+    left: 600px;
+}
+
+.overlay-image-svg-second{
+    width: 70px;
+    height: 70px;
+    filter: invert(98%) sepia(0%) saturate(5907%) hue-rotate(177deg) brightness(120%) contrast(100%);
+    transition: 1s ease-out;
+}
+.overlay-image-svg-second:hover{
+    filter: invert(8%) sepia(100%) saturate(7490%) hue-rotate(248deg) brightness(94%) contrast(143%);
+    filter: invert(58%) sepia(92%) saturate(1957%) hue-rotate(328deg) brightness(101%) contrast(101%);
+}
+
+/* Third image section */
+
+.third-image-section{
+    flex-direction: row;
+}
+
+.two-images{
+    flex-direction: column;
+    width: 800px;
+    height: 900px;
+    background-color: #b6ffc0;
+}
+
+.two-images img{
+    width: 426px;
+    height: 320px;
+    margin-block: 50px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two-images-one{
+    background-color: white;
+}
+
+.two-images-one img{
+    width: 534px;
+    height: 534px;
+}
+
+/* Random Height So I can play freely */
+.last-height{
+    height: 100vh;
+}
+
+.four-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+/* Fifth image div */
+
+.fifth-image{
+    width: 853px;
+    height: 746px;
+    flex-direction: row;
+    background-color: #d5b3ff;
+    gap: 75px;
+}
+
+.job-header{
+    flex-direction: row;
+    margin-block: 50px;
+}
+
+.right-text-last{
+    width: 533px;
+    height: 533px;
+    background-color: #b1c5ff;
+    flex-direction: column;
+    padding-inline: 75px;
+    padding-block: 75px;
+}
+
+.right-text-jobs{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    transition: 1s ease-out;
+}
+
+.right-text-jobs:hover{
+    color:#0000ff;
+}
+
+.line-break{
+    color: gray;
+    border-width: 1px;
+}
