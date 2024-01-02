@@ -316,6 +316,104 @@ ul{
 }
 
 .line-break{
-    color: gray;
+    color: rgb(255, 255, 255);
+    opacity: 50%;
     border-width: 1px;
+}
+
+/* Footer-Starts */
+
+.footer-logo{
+    margin-block: 40px;
+    width: 100%;
+}
+
+.footer-logo img{
+    width: 200px;
+    /* transform: scale(0.5); */
+}
+
+.footer-first{
+    gap: 20px;
+}
+
+.internal-footer{
+    flex-basis: 31%;
+}
+
+/* .internal-footer h3{
+    margin-block: 30px;
+} */
+
+.internal-footer p{
+    font-size: 17px;
+    margin-block: 10px;
+}
+
+
+
+.main-footer-list{
+    margin-block: 10px;
+}
+
+.main-footer-arrow{
+    color: #000000;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.main-footer-arrow::after{
+    content: ' >';
+}
+
+.social-footer{
+    flex-direction: row;
+    gap: 40px;
+}
+
+.fa-brands{
+    transform: scale(2);
+}
+
+.fa-square-facebook:hover{
+    color: #3477f2;
+}
+
+.fa-square-twitter:hover{
+    color: #1da1f2;
+}
+
+.fa-youtube:hover{
+    color: #ff001d;
+}
+
+.fa-square-instagram:hover{
+    color: #f77737;
+}
+
+
+/* Sign up footer */
+.signup{
+    display: inline;
+}
+
+#newsletter {
+    text-align: left;
+    padding: 7px 7px;
+    font-size: 17px;
+    background-color: #eeeeee;
+    border: none;
+}
+
+.signup-click{
+    padding: 9px 9px;
+    border: none;
+    background-color: #0000ff;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.footer-second{
+    margin-block: 40px;
 }
