@@ -267,11 +267,6 @@ ul{
     height: 534px;
 }
 
-/* Random Height So I can play freely */
-/* .last-height{
-    height: 100vh;
-} */
-
 .four-image img{
     display: block;
     margin-left: auto;
@@ -439,3 +434,47 @@ ul{
 .second-insider img{
     padding-left: 10px;
 }
+
+.lang-1{
+    background-color: #eeeeee;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border: none;
+}
+
+.country-1{
+    background-color: #eeeeee;
+    padding-inline: 15px;
+    padding-block: 5px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Random Height So I can play freely */
+/* .last-height{
+    height: 100vh;
+} */
