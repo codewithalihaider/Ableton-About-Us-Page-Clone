@@ -346,12 +346,12 @@ ul{
 }
 
 .internal-footer{
-    flex-basis: 31%;
+    flex-basis: 50%;
 }
 
-/* .internal-footer h3{
+.internal-footer h3{
     margin-block: 30px;
-} */
+}
 
 .internal-footer p{
     font-size: 17px;
@@ -423,7 +423,7 @@ ul{
 }
 
 .footer-second{
-    margin-block: 40px;
+    margin-block: 10px;
 }
 
 /* Last - Footer */
