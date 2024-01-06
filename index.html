@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn more about Ableton - maker of Live and Push | Ableton</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Mobile responsiveness -->
+    <link rel="stylesheet" href="media-queries.css">
 </head>
 <body>
     <!-- Main Navigation Bar -->
     <nav class="main-header">
         <div class="primary-nav flex">
             <a href="#" class="company-logo"><img src="/assets/asset 3.svg" alt=""></a>
-            <div class="main-nav primary-menu">
+            <div class="main-nav primary-menu" id="btn-toggle">
             <ul class="flex">
                 <li><a href="#" class="hover-link">Live</a></li>
                 <li><a href="#" class="hover-link">Push</a></li>
@@ -25,6 +28,10 @@
                 <li><a href="#" class="hover-link">Log in or register</a></li>
             </ul>
             </div>
+            <!-- We have created for mobile responsivess -->
+            <a href="" class="nav-toggle hover-link" id="btn-toggle">
+            <i class="fa-solid fa-chevron-down"></i>
+            </a>
         </div> 
     </nav>
     <!-- Second Nav Bar -->
@@ -230,6 +237,19 @@
 
 
     <script src="https://kit.fontawesome.com/461f5a29f7.js" crossorigin="anonymous"></script>
+
+    <script>
+        const toggleButton = document.getElementById('btn-toggle');
+        const navLinks = document.getElementById('btn-links');
+
+        toggleButton.addEventListener('click',  () => { 
+            // Prevent the default behavior of the anchor element
+            event.preventDefault();
+            
+            // Toggle the 'active' class on the navigation links
+            navLinks.classList.toggle('active');
+        })
+    </script>
 
     <div class="last-height"> </div>
 </body>
